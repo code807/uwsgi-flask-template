@@ -3,7 +3,7 @@ This repository is meant as a template for Python server endpoints that utilize 
 A few files have project-specific text that needs to be changed:  
 `project-name.service` - replace `<path/to/project>` with the full path to the template's directory  
 `project-name.py` - replace `<endpoint>` with the server route that is being proxied through uWSGI  
-`wsgi.py` - Replace `<main-script-name>` with the main python script's name (`project-name.py` by default)
+`wsgi.py` - Replace `<main-script-name>` with the main python script's name (`project-name.py` by default)  
 `project-name.service` - Replace `<project-name>` and `<path/to/project>` with the project's name and the full path to the template's directory respectively
 
 A python virtual environment in a directory called `venv` is expected, with the following packages installed:  
