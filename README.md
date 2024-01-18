@@ -13,6 +13,7 @@ A python virtual environment in a directory called `venv` is expected, with the 
 `requests`
 
 Basic Usage:  
-- Make all the required changes to the files as listed above  
+- Make all the required changes to files as listed above  
+- Create the Python virtual environment `venv` at the root of the project, installing required packages (alternatively copy an existing virtual environment that meets the project requirements)  
 - Configure nginx (or another webserver) to route requests to the Flask server using uwsgi params  
 - Enable and start the .service file to start the server
